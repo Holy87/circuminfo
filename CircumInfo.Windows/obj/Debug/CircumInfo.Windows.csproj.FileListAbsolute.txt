@@ -1,0 +1,10 @@
+D:\Francesco\OneDrive\Lavori in corso\CircumInfo\CircumInfo\CircumInfo.Windows\obj\Debug\App.g.i.cs
+D:\Francesco\OneDrive\Lavori in corso\CircumInfo\CircumInfo\CircumInfo.Windows\obj\Debug\App.g.cs
+D:\Francesco\OneDrive\Lavori in corso\CircumInfo\CircumInfo\CircumInfo.Windows\obj\Debug\MainPage.g.i.cs
+D:\Francesco\OneDrive\Lavori in corso\CircumInfo\CircumInfo\CircumInfo.Windows\obj\Debug\MainPage.g.cs
+D:\Francesco\OneDrive\Lavori in corso\CircumInfo\CircumInfo\CircumInfo.Windows\obj\Debug\XamlTypeInfo.g.cs
+D:\Francesco\OneDrive\Lavori in corso\CircumInfo\CircumInfo\CircumInfo.Windows\obj\Debug\App.xaml
+D:\Francesco\OneDrive\Lavori in corso\CircumInfo\CircumInfo\CircumInfo.Windows\obj\Debug\MainPage.xaml
+D:\Francesco\OneDrive\Lavori in corso\CircumInfo\CircumInfo\CircumInfo.Windows\obj\Debug\App.xbf
+D:\Francesco\OneDrive\Lavori in corso\CircumInfo\CircumInfo\CircumInfo.Windows\obj\Debug\MainPage.xbf
+D:\Francesco\OneDrive\Lavori in corso\CircumInfo\CircumInfo\CircumInfo.Windows\obj\Debug\XamlSaveStateFile.xml

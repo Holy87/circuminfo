@@ -1,0 +1,9 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="c:\users\francesco\onedrive\lavori in corso\circuminfo\circuminfo\circuminfo\obj\release\intermediatexaml\circuminfo.exe" HashGuid="b63360b6-bafb-8a40-72a8-ab848f66a5dc" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windowsphoneapp\v8.1\extensionsdks\microsoft.advertising.mobile.display\8.1\references\commonconfiguration\neutral\microsoft.advertising.mobile.common.winmd" HashGuid="67667542-2ed0-db4a-d191-3e7623df243e" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windowsphoneapp\v8.1\extensionsdks\microsoft.advertising.mobile.display\8.1\references\commonconfiguration\neutral\microsoft.advertising.mobile.display.winmd" HashGuid="cc0fb2e7-7a64-f70e-2997-2ad4fbf1cad0" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windowsphoneapp\v8.1\extensionsdks\microsoft.advertising.mobile.display\8.1\references\commonconfiguration\neutral\microsoft.advertising.mobile.ui.winmd" HashGuid="b3d8dc37-2e80-b28f-127b-3083e011fcaf" />
+    <ReferenceAssembly PathName="d:\francesco\onedrive\lavori in corso\circuminfo\circuminfo\packages\microsoft.admediator.windowsphone81.microsoftadvertising.1.0.13\lib\wpa\microsoft.admediator.windowsphone81.microsoftadvertising.dll" HashGuid="af241563-4509-6586-698e-4dc970b271a9" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

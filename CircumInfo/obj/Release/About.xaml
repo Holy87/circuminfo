@@ -1,0 +1,66 @@
+﻿<Page
+    x:Class="CircumInfo.About"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CircumInfo"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Background="{StaticResource AppBarBackground}">
+    <!--<Page.Transitions>
+        <TransitionCollection>
+            <EntranceThemeTransition/>
+        </TransitionCollection>
+    </Page.Transitions>-->
+
+    <Page.Transitions>
+        <TransitionCollection>
+            <PaneThemeTransition Edge="Bottom"/>
+        </TransitionCollection>
+    </Page.Transitions>
+
+    <Grid x:Name="LayoutRoot">
+
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TODO: il contenuto deve essere inserito all'interno della seguente griglia-->
+        <!-- Pannello del titolo -->
+        <Rectangle Fill="{StaticResource DefaultThemeAccentBrush}" Height="143" Margin="0,-27,0,0" VerticalAlignment="Top"/>
+        <!-- Pannello del titolo -->
+        <StackPanel Grid.Row="0" Margin="19,0,0,0" RequestedTheme="Dark">
+            <TextBlock Text="treni circumvesuviana" Style="{ThemeResource TitleTextBlockStyle}" Margin="0,12,0,0"/>
+            <TextBlock Text="informazioni" Margin="0,-6.5,0,26.5" Style="{ThemeResource HeaderTextBlockStyle}" CharacterSpacing="{ThemeResource PivotHeaderItemCharacterSpacing}"/>
+        </StackPanel>
+        <StackPanel Margin="10,9.833,10,0" RequestedTheme="Light" Grid.Row="1" VerticalAlignment="Top" >
+            <TextBlock x:Name="Description" TextWrapping="Wrap" FontSize="18.667">
+				<Run Text="TRENI CIRCUMVESUVIANA"/>
+				<LineBreak/>
+				<Run Text="Versione: {0}"/>
+				<LineBreak/>
+				<Run Text="App sviluppata da Francesco Bosso"/>
+				<LineBreak/>
+				<Run Text="App non ufficiale. Questa app non è collegata in alcun modo al servizio Circumvesuviana dell'Ente Autonomo Volturno (EAV)."/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="ATTENZIONE" FontWeight="Bold"/>
+				<LineBreak/>
+				<Run Text="I dati dell'app si basano sugli orari rilasciati sul sito, e non possono in alcun modo prevedere ritardi e soppressioni perché EAV non ne fornisce le informazioni."/>
+				<LineBreak/>
+				<LineBreak/>
+				<Run Text="Vuoi segnalare un errore negli orari, un bug o inviare suggerimenti?"/>
+				<LineBreak/>
+				<Run/>
+            </TextBlock>
+            <Button x:ConnectionId='1' Style="{StaticResource BottoneRosso}" Content="Contattami"                      HorizontalAlignment="Stretch" VerticalAlignment="Top" RequestedTheme="Light"/>
+        </StackPanel>
+    </Grid>
+</Page>
+

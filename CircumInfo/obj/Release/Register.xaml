@@ -1,0 +1,25 @@
+﻿<Page
+    x:Class="CircumInfo.Register"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CircumInfo"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" RequestedTheme="Light" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Rectangle Fill="{StaticResource DefaultThemeAccentBrush}" Height="143" VerticalAlignment="Top" Margin="0,-27,0,0"/>
+        <StackPanel Grid.Row="0" Margin="19,0,0,0">
+            <TextBlock Text="TRENI CIRCUMVESUVIANA" Style="{ThemeResource TitleTextBlockStyle}" Margin="0,12,0,0" Foreground="White"/>
+            <TextBlock Text="registrati" Margin="0,-6.5,0,26.5" Style="{ThemeResource HeaderTextBlockStyle}" CharacterSpacing="{ThemeResource PivotHeaderItemCharacterSpacing}" Foreground="White"/>
+            <StackPanel Orientation="Horizontal"/>
+        </StackPanel>
+        <StackPanel Margin="5,116">
+            <TextBox x:ConnectionId='1' Header="Nome utente" PlaceholderText="scrivi il tuo nome" x:Name="NicknameBox" InputScope="AlphanumericHalfWidth"                                   />
+            <PasswordBox x:ConnectionId='2' Header="Password" PlaceholderText="almeno 8 caratteri" x:Name="PasswordBox"                                   Style="{StaticResource PasswordBoxError}"/>
+            <TextBox x:ConnectionId='3' Header="e-mail" PlaceholderText="ad es. nome@contoso.it" x:Name="MailBox"  InputScope="EmailSmtpAddress"                              />
+            <Button x:ConnectionId='4' IsEnabled="False" Style="{StaticResource BottoneRosso}"                      x:Name="RegButton" HorizontalAlignment="Stretch" Content="Vai!"/>
+        </StackPanel>
+    </Grid>
+</Page>
+

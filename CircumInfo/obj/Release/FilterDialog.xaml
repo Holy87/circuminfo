@@ -1,0 +1,27 @@
+﻿<ContentDialog x:ConnectionId='1'
+    x:Class="CircumInfo.FilterDialog"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CircumInfo"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Title="FILTRA LE PARTENZE"
+    PrimaryButtonText="OK"  
+    SecondaryButtonText="annulla"
+                                                         
+                                                             >
+
+    <StackPanel VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+        <ComboBox x:Name="Direzione" Header="Direzione" />
+        <CheckBox x:ConnectionId='2'                          Name="Filtro" Content="Mostra solo i prossimi treni"/>
+
+        <!-- Corpo del contenuto -->
+        <TextBlock Name="body" Style="{StaticResource MessageDialogContentStyle}" TextWrapping="Wrap">
+            <TextBlock.Text>
+                Attiva la spunta per mostrare solo i treni che possono arrivare da te da questo momento in poi.
+            </TextBlock.Text>
+        </TextBlock>
+    </StackPanel>
+</ContentDialog>
+

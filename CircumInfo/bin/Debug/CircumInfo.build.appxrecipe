@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>PC-FRANCESCO</Machine>
+    <WindowsUser>Francesco</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows Phone 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>46ef1e7a-29ae-4a6d-9509-488df9a25026</PackageIdentityName>
+    <IntermediateOutputPath>D:\Francesco\OneDrive\Lavori in corso\CircumInfo\CircumInfo\CircumInfo\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Francesco\OneDrive\Lavori in corso\CircumInfo\CircumInfo\CircumInfo\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Francesco\OneDrive\Lavori in corso\CircumInfo\CircumInfo\CircumInfo\bin\Debug\CircumInfo.exe">
+      <PackagePath>CircumInfo.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.Advertising.Mobile.Display\8.1\References\CommonConfiguration\neutral\Microsoft.Advertising.Mobile.Common.winmd">
+      <PackagePath>Microsoft.Advertising.Mobile.Common.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.Advertising.Mobile.Display\8.1\References\CommonConfiguration\neutral\Microsoft.Advertising.Mobile.Display.winmd">
+      <PackagePath>Microsoft.Advertising.Mobile.Display.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.Advertising.Mobile.Display\8.1\References\CommonConfiguration\neutral\Microsoft.Advertising.Mobile.UI.winmd">
+      <PackagePath>Microsoft.Advertising.Mobile.UI.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Francesco\OneDrive\Lavori in corso\CircumInfo\CircumInfo\packages\Microsoft.AdMediator.WindowsPhone81.MicrosoftAdvertising.1.0.13\lib\wpa\Microsoft.AdMediator.WindowsPhone81.MicrosoftAdvertising.dll">
+      <PackagePath>Microsoft.AdMediator.WindowsPhone81.MicrosoftAdvertising.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.Advertising.Mobile.Display\8.1\Redist\CommonConfiguration\neutral\Microsoft.Advertising.Mobile.UI\Web\bootstrap.html">
+      <PackagePath>Microsoft.Advertising.Mobile.UI\Web\bootstrap.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.Advertising.Mobile.Display\8.1\Redist\CommonConfiguration\neutral\Microsoft.Advertising.Mobile.UI\Themes\Generic.xbf">
+      <PackagePath>Microsoft.Advertising.Mobile.UI\Themes\Generic.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.Advertising.Mobile.Display\8.1\Redist\CommonConfiguration\neutral\Microsoft.Advertising.Mobile.UI\Web\Ormma.js">
+      <PackagePath>Microsoft.Advertising.Mobile.UI\Web\Ormma.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Francesco\OneDrive\Lavori in corso\CircumInfo\CircumInfo\CircumInfo\Assets\appbar.star.add.png">
+      <PackagePath>Assets\appbar.star.add.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Francesco\OneDrive\Lavori in corso\CircumInfo\CircumInfo\CircumInfo\Assets\appbar.star.minus.png">
+      <PackagePath>Assets\appbar.star.minus.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Francesco\OneDrive\Lavori in corso\CircumInfo\CircumInfo\CircumInfo\Assets\DarkGray.png">
+      <PackagePath>Assets\DarkGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Francesco\OneDrive\Lavori in corso\CircumInfo\CircumInfo\CircumInfo\Assets\LightGray.png">
+      <PackagePath>Assets\LightGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Francesco\OneDrive\Lavori in corso\CircumInfo\CircumInfo\CircumInfo\Assets\Location.png">
+      <PackagePath>Assets\Location.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Francesco\OneDrive\Lavori in corso\CircumInfo\CircumInfo\CircumInfo\Assets\MediumGray.png">
+      <PackagePath>Assets\MediumGray.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Francesco\OneDrive\Lavori in corso\CircumInfo\CircumInfo\CircumInfo\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Francesco\OneDrive\Lavori in corso\CircumInfo\CircumInfo\CircumInfo\Assets\Posizione.png">
+      <PackagePath>Assets\Posizione.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Francesco\OneDrive\Lavori in corso\CircumInfo\CircumInfo\CircumInfo\Assets\Segnalino.png">
+      <PackagePath>Assets\Segnalino.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Francesco\OneDrive\Lavori in corso\CircumInfo\CircumInfo\CircumInfo\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Francesco\OneDrive\Lavori in corso\CircumInfo\CircumInfo\CircumInfo\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Francesco\OneDrive\Lavori in corso\CircumInfo\CircumInfo\CircumInfo\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Francesco\OneDrive\Lavori in corso\CircumInfo\CircumInfo\CircumInfo\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Francesco\OneDrive\Lavori in corso\CircumInfo\CircumInfo\CircumInfo\Assets\TileS150.png">
+      <PackagePath>Assets\TileS150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Francesco\OneDrive\Lavori in corso\CircumInfo\CircumInfo\CircumInfo\Assets\WelcomeWP.png">
+      <PackagePath>Assets\WelcomeWP.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Francesco\OneDrive\Lavori in corso\CircumInfo\CircumInfo\CircumInfo\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Francesco\OneDrive\Lavori in corso\CircumInfo\CircumInfo\CircumInfo.Shared\Assets\Treni\Accelerato.png">
+      <PackagePath>Assets\Treni\Accelerato.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Francesco\OneDrive\Lavori in corso\CircumInfo\CircumInfo\CircumInfo.Shared\Assets\Treni\Bus.png">
+      <PackagePath>Assets\Treni\Bus.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Francesco\OneDrive\Lavori in corso\CircumInfo\CircumInfo\CircumInfo.Shared\Assets\Treni\CampExpress.png">
+      <PackagePath>Assets\Treni\CampExpress.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Francesco\OneDrive\Lavori in corso\CircumInfo\CircumInfo\CircumInfo.Shared\Assets\Treni\CenDir.png">
+      <PackagePath>Assets\Treni\CenDir.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Francesco\OneDrive\Lavori in corso\CircumInfo\CircumInfo\CircumInfo.Shared\Assets\Treni\Direttissimo.png">
+      <PackagePath>Assets\Treni\Direttissimo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Francesco\OneDrive\Lavori in corso\CircumInfo\CircumInfo\CircumInfo.Shared\Assets\Treni\Diretto.png">
+      <PackagePath>Assets\Treni\Diretto.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Francesco\OneDrive\Lavori in corso\CircumInfo\CircumInfo\CircumInfo.Shared\Assets\Treni\Funivia.png">
+      <PackagePath>Assets\Treni\Funivia.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Francesco\OneDrive\Lavori in corso\CircumInfo\CircumInfo\CircumInfo\Common\ReadMe.txt">
+      <PackagePath>Common\ReadMe.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Francesco\OneDrive\Lavori in corso\CircumInfo\CircumInfo\CircumInfo\AdMediator.config">
+      <PackagePath>AdMediator.config</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Francesco\OneDrive\Lavori in corso\CircumInfo\CircumInfo\CircumInfo\DataModel\SampleData.json">
+      <PackagePath>DataModel\SampleData.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Francesco\OneDrive\Lavori in corso\CircumInfo\CircumInfo\CircumInfo\bin\Debug\CircumInfo.xr.xml">
+      <PackagePath>CircumInfo.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Francesco\OneDrive\Lavori in corso\CircumInfo\CircumInfo\CircumInfo\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Francesco\OneDrive\Lavori in corso\CircumInfo\CircumInfo\CircumInfo\bin\Debug\About.xbf">
+      <PackagePath>About.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Francesco\OneDrive\Lavori in corso\CircumInfo\CircumInfo\CircumInfo\bin\Debug\FilterDialog.xbf">
+      <PackagePath>FilterDialog.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Francesco\OneDrive\Lavori in corso\CircumInfo\CircumInfo\CircumInfo\bin\Debug\HubPage.xbf">
+      <PackagePath>HubPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Francesco\OneDrive\Lavori in corso\CircumInfo\CircumInfo\CircumInfo\bin\Debug\Impostazioni.xbf">
+      <PackagePath>Impostazioni.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Francesco\OneDrive\Lavori in corso\CircumInfo\CircumInfo\CircumInfo\bin\Debug\PageFermate.xbf">
+      <PackagePath>PageFermate.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Francesco\OneDrive\Lavori in corso\CircumInfo\CircumInfo\CircumInfo\bin\Debug\MapStations.xbf">
+      <PackagePath>MapStations.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Francesco\OneDrive\Lavori in corso\CircumInfo\CircumInfo\CircumInfo\bin\Debug\Register.xbf">
+      <PackagePath>Register.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Francesco\OneDrive\Lavori in corso\CircumInfo\CircumInfo\CircumInfo\bin\Debug\SearchStop.xbf">
+      <PackagePath>SearchStop.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Francesco\OneDrive\Lavori in corso\CircumInfo\CircumInfo\CircumInfo\bin\Debug\PageStazione.xbf">
+      <PackagePath>PageStazione.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Francesco\OneDrive\Lavori in corso\CircumInfo\CircumInfo\CircumInfo\bin\Debug\TrainPage.xbf">
+      <PackagePath>TrainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Francesco\OneDrive\Lavori in corso\CircumInfo\CircumInfo\CircumInfo\bin\Debug\Tutorial.xbf">
+      <PackagePath>Tutorial.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Francesco\OneDrive\Lavori in corso\CircumInfo\CircumInfo\CircumInfo\bin\Debug\Welcome.xbf">
+      <PackagePath>Welcome.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Francesco\OneDrive\Lavori in corso\CircumInfo\CircumInfo\CircumInfo\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

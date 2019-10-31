@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>3f5376ea-def4-4d7f-b5d5-05cdce965dc6</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>CircumInfo</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Common\DBSource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\Eccezioni\DisabledPositionException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\Eccezioni\InvalidTrainStopException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\Eccezioni\PositionNotFoundException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\Haversine.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\Linea.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\Messages\Message.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\Messages\MessageSystem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\ObjectSerializer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\Partenza.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\SelettoreDati.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\Settings.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\Linee.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\Shop.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\Stop.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\TextHandler.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\Train.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\TrainStop.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\Vocabs.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Treni\Accelerato.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Treni\Bus.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Treni\CampExpress.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Treni\CenDir.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Treni\Direttissimo.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Treni\Diretto.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Treni\Funivia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <PRIResource Include="$(MSBuildThisFileDirectory)Strings\en\Resources.resw" />
+    <PRIResource Include="$(MSBuildThisFileDirectory)Strings\it\Resources.resw" />
+  </ItemGroup>
+</Project>
